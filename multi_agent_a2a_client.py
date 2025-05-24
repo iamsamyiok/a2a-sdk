@@ -5,7 +5,7 @@ protocol-compliant agent servers. It uses an OpenAI-like Large Language Model (L
 to intelligently decide which agent to route a user's request to and what message
 to send based on the agents' advertised capabilities (Agent Cards).
 
-Features:
+
 - Connects to and manages configurations for multiple A2A agent servers.
 - Fetches and understands agent capabilities via public and extended Agent Cards.
 - Integrates with an OpenAI LLM (configurable model via environment variable) for:
